@@ -1,104 +1,205 @@
-# 🏢 PropFlow - Real Estate CRM Dashboard# 📊 Business Admin Dashboard
+# PropFlow - Real Estate CRM Dashboard# 🏢 PropFlow - Real Estate CRM Dashboard# 📊 Business Admin Dashboard
 
 
 
-A modern, professional real estate CRM dashboard for managing property sales, leads, and team operations. Built with React, TypeScript, and Tailwind CSS.A professional, full-featured admin dashboard for managing business operations. Built with modern web technologies and following industry best practices for enterprise-level applications.
+A sleek real estate CRM I built to manage property sales, track leads, and keep teams organized. Think of it as a mini Salesforce for property developers.
 
 
 
-![PropFlow Dashboard](https://via.placeholder.com/1200x600/fbbf24/18181b?text=PropFlow+Dashboard)![Dashboard Preview](https://via.placeholder.com/1200x600/18181b/ffffff?text=Dashboard+Preview)
+![PropFlow Dashboard](https://via.placeholder.com/1200x600/fbbf24/18181b?text=PropFlow+Dashboard)A modern, professional real estate CRM dashboard for managing property sales, leads, and team operations. Built with React, TypeScript, and Tailwind CSS.A professional, full-featured admin dashboard for managing business operations. Built with modern web technologies and following industry best practices for enterprise-level applications.
 
 
 
-## 🎯 Project Overview## 🎯 Project Overview
+## What's This About?
 
 
+
+I wanted to build something that actually looks like a real product, not another todo app. PropFlow is a complete dashboard for real estate teams - from tracking which units are sold to managing your sales pipeline.![PropFlow Dashboard](https://via.placeholder.com/1200x600/fbbf24/18181b?text=PropFlow+Dashboard)![Dashboard Preview](https://via.placeholder.com/1200x600/18181b/ffffff?text=Dashboard+Preview)
+
+
+
+**Built with:** React + TypeScript + Tailwind CSS + Recharts
+
+
+
+## Features## 🎯 Project Overview## 🎯 Project Overview
+
+
+
+### Dashboard
+
+The main hub - see your total sales, units sold, and price per square foot at a glance. There's a nice status breakdown showing how many units are Available, Reserved, Offered, or Sold.
 
 PropFlow is a comprehensive real estate management platform designed for property developers and sales teams. It features:This admin dashboard demonstrates real-world business application development with a focus on:
 
-- Clean, modern UI with amber/gold accent colors- Clean, professional UI design (inspired by Stripe, Linear, Shopify)
+### Sales Pipeline
 
-- Real estate-specific metrics and analytics- Complex data visualization and management
+Kanban-style board to track deals from first contact to closing. Drag deals through stages: New Lead → Contacted → Viewing → Offer → Negotiation → Closed.- Clean, modern UI with amber/gold accent colors- Clean, professional UI design (inspired by Stripe, Linear, Shopify)
+
+
+
+### Contacts- Real estate-specific metrics and analytics- Complex data visualization and management
+
+Your CRM - keep track of buyers, investors, and partners. Tag them as Hot Leads or mark them for follow-up.
 
 - Lead management and sales pipeline tracking- Intuitive user experience with minimal clutter
 
-- Team collaboration tools- Type-safe development with TypeScript
+### Calendar
+
+Schedule property viewings, contract signings, and team meetings. See your day at a glance.- Team collaboration tools- Type-safe development with TypeScript
 
 
+
+### Email Inbox
+
+Built-in email interface with folders, search, and quick actions. Star important messages, archive old ones.
 
 ## ✨ Features## ✨ Features
 
+### Offers
+
+Track all incoming offers - see who's offering what, compare to listing price, accept or counter.
 
 
-### 📊 Dashboard### 📈 Dashboard
+
+### Contracts### 📊 Dashboard### 📈 Dashboard
+
+Template library for all your paperwork - purchase agreements, leases, disclosure forms.
 
 - **Sales Metrics** — Total sales, units sold, price per sq ft tracking- **KPI Cards** — Real-time metrics with trend indicators
 
-- **Units Status** — Visual breakdown of Available, Reserved, Offered, and Sold units- **Revenue Analytics** — Interactive area chart showing monthly performance
+### Team
 
-- **Lead Analytics** — Daily lead tracking with interactive bar charts- **Order Trends** — Bar chart visualization of order volumes
+See who's on your team, their deals closed, and revenue generated.- **Units Status** — Visual breakdown of Available, Reserved, Offered, and Sold units- **Revenue Analytics** — Interactive area chart showing monthly performance
+
+
+
+### Notifications- **Lead Analytics** — Daily lead tracking with interactive bar charts- **Order Trends** — Bar chart visualization of order volumes
+
+Stay on top of everything - new leads, accepted offers, contract reminders.
 
 - **Remaining Inventory** — Quick view of available units- **Top Products** — Ranked list of best-selling items
 
+## Tech Stack
+
 - **Recent Activity** — Live feed of business events
 
-### 🏷️ Offers Management
+- **React 18** - UI components
 
-- **Offer Tracking** — Monitor all incoming property offers### 👥 User Management
+- **TypeScript** - Type safety### 🏷️ Offers Management
 
-- **Status Management** — Pending, Accepted, Rejected, Counter-offer states- **Searchable Data Table** — Filter by role and status
+- **Tailwind CSS v4** - Styling
+
+- **Recharts** - Charts and graphs- **Offer Tracking** — Monitor all incoming property offers### 👥 User Management
+
+- **React Router** - Navigation
+
+- **Lucide Icons** - Icons- **Status Management** — Pending, Accepted, Rejected, Counter-offer states- **Searchable Data Table** — Filter by role and status
+
+- **Vite** - Build tool
 
 - **Price Comparison** — Compare offer amounts vs listing prices- **Row Actions Menu** — Edit, delete, reset password (hidden in three-dot menu)
 
+## Getting Started
+
 - **Trend Indicators** — Visual cues for above/below asking price- **Pagination** — Navigate large datasets efficiently
 
-- **User Profiles** — View detailed user information
+```bash
+
+# Clone it- **User Profiles** — View detailed user information
+
+git clone https://github.com/avinxshKD/PropFlow-Admin-Dashboard.git
 
 ### 📧 Email Inbox
 
-- **Integrated Email** — Built-in email client for lead communication### 📊 Reports
+# Install stuff
 
-- **Folder Organization** — Inbox, Starred, Sent, Drafts, Archive- **Sales Reports** — Track revenue vs profit over time
+npm install- **Integrated Email** — Built-in email client for lead communication### 📊 Reports
 
-- **Quick Actions** — Star, archive, delete with one click- **User Activity** — Hourly activity patterns
 
-- **Attachment Support** — View email attachments inline- **Product Performance** — Category breakdown with pie charts
 
-- **Regional Analytics** — Performance by geographic region
+# Run it- **Folder Organization** — Inbox, Starred, Sent, Drafts, Archive- **Sales Reports** — Track revenue vs profit over time
 
-### 📅 Calendar
+npm run dev
 
-- **Event Management** — Schedule viewings, meetings, and signings### ⚙️ Settings
+```- **Quick Actions** — Star, archive, delete with one click- **User Activity** — Hourly activity patterns
 
-- **Monthly View** — Full calendar with event indicators- **Profile Management** — Update personal information
 
-- **Today's Schedule** — Quick view of daily appointments- **Notifications** — Email and push notification preferences
 
-- **Location Tracking** — See where each event takes place- **Security** — Password management, 2FA, active session monitoring
+Then open [http://localhost:5173](http://localhost:5173)- **Attachment Support** — View email attachments inline- **Product Performance** — Category breakdown with pie charts
 
-- **Billing** — Payment methods and invoice history
 
-### 📄 Contract Templates
 
-- **Template Library** — Pre-built contract templates## 🛠️ Tech Stack
+## Project Structure- **Regional Analytics** — Performance by geographic region
 
-- **Category Organization** — Purchase, Lease, Offer, Disclosure types
+
+
+```### 📅 Calendar
+
+src/
+
+├── components/- **Event Management** — Schedule viewings, meetings, and signings### ⚙️ Settings
+
+│   ├── Layout.tsx
+
+│   └── Sidebar.tsx- **Monthly View** — Full calendar with event indicators- **Profile Management** — Update personal information
+
+├── pages/
+
+│   ├── Dashboard.tsx- **Today's Schedule** — Quick view of daily appointments- **Notifications** — Email and push notification preferences
+
+│   ├── Pipeline.tsx
+
+│   ├── Contacts.tsx- **Location Tracking** — See where each event takes place- **Security** — Password management, 2FA, active session monitoring
+
+│   ├── Calendar.tsx
+
+│   ├── Inbox.tsx- **Billing** — Payment methods and invoice history
+
+│   ├── Offers.tsx
+
+│   ├── Contracts.tsx### 📄 Contract Templates
+
+│   ├── Team.tsx
+
+│   ├── Notifications.tsx- **Template Library** — Pre-built contract templates## 🛠️ Tech Stack
+
+│   └── Settings.tsx
+
+└── App.tsx- **Category Organization** — Purchase, Lease, Offer, Disclosure types
+
+```
 
 - **Usage Tracking** — See how often templates are used- **React 18** — Component-based UI library
 
+## Design
+
 - **Quick Actions** — Copy or download templates instantly- **TypeScript** — Type safety and better developer experience
+
+Went with an amber/gold accent color - it's common in real estate branding and looks professional. The rest is clean whites and grays so the data stands out.
 
 - **Vite** — Lightning-fast build tool and dev server
 
+## What I Learned
+
 ### 👥 Team Management- **Tailwind CSS** — Utility-first CSS framework
 
-- **Team Directory** — View all team members and their roles- **Recharts** — React charting library for data visualization
+- Building consistent UI across 10+ pages
 
-- **Performance Metrics** — Deals closed and revenue per agent- **React Router** — Client-side routing
+- Creating a cohesive design system from scratch- **Team Directory** — View all team members and their roles- **Recharts** — React charting library for data visualization
 
-- **Online Status** — See who's available in real-time- **Lucide React** — Beautiful, consistent icon set
+- Working with different data visualization patterns
 
-- **Contact Info** — Quick access to email and phone
+- Structuring a larger React application- **Performance Metrics** — Deals closed and revenue per agent- **React Router** — Client-side routing
+
+
+
+---- **Online Status** — See who's available in real-time- **Lucide React** — Beautiful, consistent icon set
+
+
+
+Built by [Avinash](https://github.com/avinxshKD)- **Contact Info** — Quick access to email and phone
+
 
 ## 🚀 Getting Started
 
