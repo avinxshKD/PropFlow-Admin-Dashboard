@@ -89,7 +89,6 @@ export default function Inbox() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        {/* Folders Sidebar */}
         <div className="bg-white rounded-xl border border-zinc-200 p-4">
           <div className="space-y-1">
             {folders.map((folder) => (
@@ -112,9 +111,7 @@ export default function Inbox() {
           </div>
         </div>
 
-        {/* Email List */}
         <div className="lg:col-span-3 bg-white rounded-xl border border-zinc-200">
-          {/* Search Bar */}
           <div className="p-4 border-b border-zinc-100">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
@@ -126,7 +123,6 @@ export default function Inbox() {
             </div>
           </div>
 
-          {/* Email Items */}
           <div className="divide-y divide-zinc-100">
             {emails.map((email) => (
               <div

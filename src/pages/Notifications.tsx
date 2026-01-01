@@ -98,7 +98,6 @@ export default function Notifications() {
         </button>
       </div>
 
-      {/* Quick Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-white rounded-xl border border-zinc-200 p-4 flex items-center gap-4">
           <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
@@ -129,7 +128,6 @@ export default function Notifications() {
         </div>
       </div>
 
-      {/* Notifications List */}
       <div className="bg-white rounded-xl border border-zinc-200 divide-y divide-zinc-100">
         {notifications.map((notification) => {
           const Icon = typeIcons[notification.type]

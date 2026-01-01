@@ -88,7 +88,6 @@ export default function Contracts() {
         </button>
       </div>
 
-      {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl border border-zinc-200 p-4">
           <p className="text-sm text-zinc-500 mb-1">Total Templates</p>
@@ -108,7 +107,6 @@ export default function Contracts() {
         </div>
       </div>
 
-      {/* Search */}
       <div className="bg-white rounded-xl border border-zinc-200 p-4">
         <div className="relative max-w-md">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
@@ -120,7 +118,6 @@ export default function Contracts() {
         </div>
       </div>
 
-      {/* Templates Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {templates.map((template) => (
           <div key={template.id} className="bg-white rounded-xl border border-zinc-200 p-5 hover:border-zinc-300 transition-colors">
